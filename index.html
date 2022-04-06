@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Muhamad Jaya's Summaries</title>
+  </head>
+  <body>
+    <div class="container my-5">
+      <h1 class="text-center pt-4">Muhamad Jaya's Summaries</h1>
+      <!-- Nav Tabs -->
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button
+            class="nav-link active"
+            id="nav-git-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-git"
+            type="button"
+            role="tab"
+            aria-controls="nav-git"
+            aria-selected="true"
+          >
+            Git
+          </button>
+
+          <button
+            class="nav-link"
+            id="nav-uiux-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-uiux"
+            type="button"
+            role="tab"
+            aria-controls="nav-uiux"
+            aria-selected="false"
+          >
+            Introduction UI/UX
+          </button>
+
+          <button
+            class="nav-link"
+            id="nav-figma-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-figma"
+            type="button"
+            role="tab"
+            aria-controls="nav-figma"
+            aria-selected="false"
+          >
+            Figma
+          </button>
+
+          <button
+            class="nav-link"
+            id="nav-html-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-html"
+            type="button"
+            role="tab"
+            aria-controls="nav-html"
+            aria-selected="false"
+          >
+            HTML
+          </button>
+
+          <button
+            class="nav-link"
+            id="nav-css-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-css"
+            type="button"
+            role="tab"
+            aria-controls="nav-css"
+            aria-selected="false"
+          >
+            CSS
+          </button>
+
+          <button
+            class="nav-link"
+            id="nav-bootstrap-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-bootstrap"
+            type="button"
+            role="tab"
+            aria-controls="nav-bootstrap"
+            aria-selected="false"
+          >
+            Bootstrap
+          </button>
+
+          <button
+            class="nav-link"
+            id="nav-javascript-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-javascript"
+            type="button"
+            role="tab"
+            aria-controls="nav-javascript"
+            aria-selected="false"
+          >
+            Javascript Refreshment
+          </button>
+
+          <button
+            class="nav-link"
+            id="nav-cleancode-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-cleancode"
+            type="button"
+            role="tab"
+            aria-controls="nav-cleancode"
+            aria-selected="false"
+          >
+            Clean Code
+          </button>
+        </div>
+      </nav>
+      <!-- End of Nav Tabs -->
+
+      <!-- Content -->
+      <div class="tab-content custom_tab_content" id="nav-tabContent">
+        <!-- Version Control and Branch Management (Git) -->
+        <div
+          class="tab-pane fade show active p-3"
+          id="nav-git"
+          role="tabpanel"
+          aria-labelledby="nav-git-tab"
+        >
+          <h2>2 Version Control and Branch Management (Git)</h2>
+          <h3 class="pt-3">Resume</h3>
+          <p>Dalam materi ini, mempelajari:</p>
+          <ol>
+            <li>Pengertian dan jenis-jenis Versioning</li>
+            <div class="paragraph-content">
+              Versioning adalah melakukan pengaturan versi atau pelacakan setiap
+              perubahan dari setiap code program. Adapun tujuan utamanya yaitu
+              melakukan manajemen project serta tarcking terhadap perubahan yang
+              terjadi pada code program, baik yang dilakukan oleh personal
+              ataupun tim. Didalam membangun setiap project pasti ada sebuah
+              perubahan dan koreksi, meskipun itu adalah sebuah project
+              profesional dan besar.
+            </div>
+            <li>Pengertian Git dan macam-macam Git command</li>
+            <div class="paragraph-content">
+              Adapun version control yang paling populer hingga sekarang adalah
+              GIT. GIT merupakan version control system populer yang digunakan
+              para developer untuk mengembangkan software secara bersama-sama.
+              GIT sendiri bersifat terdistribusi, yaitu dapat diakses secara
+              bersama sama. GIT dibuat oleh Linus Torvalds pada tahun 2005.
+              Dalam GIT terdapat 3 buah area yaitu working tree, stagging area,
+              dan history. Dari masing-masing area tersebut terdapat berbagai
+              git command untuk melakukan berbagai tugas. Mulai dari git init
+              untuk menyiapkan repository lokal untuk mengontrol berbagai
+              perubahan, git status untuk mengetahui perubahan apa saja yang
+              terjadi, git add untuk memindahkan dari working tree area ke
+              stagging area, git commit untuk memindahkan dari stagging area ke
+              histroy, dan masih banyak command lainnya yang dapat digunakan
+              sesuai dengan kondisi yang terjadi.
+            </div>
+            <li>Manajemen Branch pada Git</li>
+            <div class="paragraph-content">
+              Dalam git dapat ditambahkan beberapa branch dengan tujuan membuat
+              sebuah jalur baru tanpa mengganggu jalur utama, dalam hal ini
+              dapat berlaku apabila dalam pengembangan code akan ditambahkan
+              atau membuat eksperimen sebuah fitur baru. Pada praktiknya brach
+              tersebut dapat dilakukan berbagai manajemen, mulai dari membuat
+              branch baru dan menambahkan fitur lain hingga melakukan merge pada
+              branch yang diinginkan.
+            </div>
+          </ol>
+
+          <h3 class="pt-3">Task</h3>
+          <ol>
+            <li>
+              Membuat repository baru di github dan melakukan manajemen branch
+            </li>
+            <div class="paragraph-content">
+              Pada task ini, membuat sebuah repository baru dan membuat 3 buah
+              branch tambahan selain dari branch master, dengan ketentuan
+              menambahkan branch develop kemudian lakukan pengembangan fitur
+              dengan menambahkan 2 buah branch baru, pada masing-masing branch
+              tambahkan fitur lalu merge dengan branch develop.
+            </div>
+          </ol>
+
+          <h3 class="pt-3">Link :</h3>
+          <a href="https://github.com/muhamadjaya/tugas-section2-branch"
+            >Version Control and Branch Management (Git)</a
+          >
+
+          <h3 class="pt-3">Screenshots :</h3>
+          <div class="git-img" style="width: 100%">
+            <img
+              src="./assets/img/git/tugas-section2-branch.JPG"
+              alt="tugas git"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+        <!-- End of Version Control and Branch Management (Git) -->
+
+        <!-- Introduction UI/UX -->
+        <div
+          class="tab-pane fade p-3"
+          id="nav-uiux"
+          role="tabpanel"
+          aria-labelledby="nav-uiux-tab"
+        >
+          <h2>3 Introduction UI/UX</h2>
+          <h3 class="pt-3">Resume</h3>
+          <p>Dalam materi ini, mempelajari:</p>
+          <ol>
+            <li>User Experience (UX)</li>
+            <div class="paragraph-content">
+              User Experience (UX) adalah apapun yang pengguna rasakan ketika
+              menggunakan produk yang kita buat. UX terdiri dari 6 bagian,
+              diantaranya : Business Logic, Technology, Incteraction Logic,
+              Design, Computer Communication, dan Business. Dan beberapa tahapan
+              Yang bisa dilakukan ketika hendak mendesain sebuah User
+              Experience, yaitu : empathize, define, ideate, prototype, dan
+              validate.
+            </div>
+            <li>User Interface (UI)</li>
+            <div class="paragraph-content">
+              User Interface (UI) adalah tampilan yang user gunakan ketika
+              berinteraksi dengan produk yang kita buat. Terdapat 4 buah Pilar
+              pada UI, diantaranya: Consistency (menggunakan desain pola yang
+              sama pada setiap halaman dan urutan pada situasi pada halamannya
+              mirip), Keep the interface simple (menghilangkan elemen-elemen
+              yang tidak diperlukan pada sebuah halaman dan gunakan bahasa yang
+              jelas), Good Typography (harus diperhatikan typeface, yaitu pola
+              huruf yang digunakan harus memiliki pola yang sama. Dan perhatikan
+              juga mengenai ukuran, jenis, dan susunan dari text dengan tujuan
+              supaya memudahkan untuk dibaca), dan Offer Informative Feedback
+              (feedback yang diberikan kepada user harus berarti, relevan, dan
+              jelas).
+            </div>
+            <li>Prototyping</li>
+            <div class="paragraph-content">
+              Prototype merupakan sebuah simulasi atau contoh sample yang
+              menggambarkan final produk yang kita buat. Tujuannya yaitu untuk
+              melakukan testing mengenai produk yang dibuat sebelum menghabiskan
+              waktu dan uang yang dihabiskan untuk membuat produk yang dibuat.
+              Tujuan lainnya yaitu mendapatkan feedback dari user, stakeholder,
+              dan tim agar mereka dapat memberikan mengenai produk yang akan
+              dibuat.
+            </div>
+          </ol>
+
+          <h3 class="pt-3">Task</h3>
+          <ol>
+            <li>Mengidentifikasi desain website</li>
+            <div class="paragraph-content">
+              Pada task ini, mengidentifikasi 3 buah desain website serta
+              menjelaskan UI/UX nya beserta color palette.
+            </div>
+          </ol>
+
+          <h3 class="pt-3">Link :</h3>
+          <a
+            href="https://docs.google.com/document/d/195kR_m6vdOyUv4josiMmulSV7knx1VHaWX1utf5VQok/edit"
+            >Introduction UI/UX</a
+          >
+
+          <h3 class="pt-3">Screenshots :</h3>
+          <div class="uiux-img" style="width: 100%">
+            <img
+              src="./assets/img/ui-ux/desain-1.JPG"
+              alt="tugas git 1"
+              style="width: 100%"
+            />
+          </div>
+          <div class="uiux-img" style="width: 100%">
+            <img
+              src="./assets/img/ui-ux/desain-2.JPG"
+              alt="tugas git 2"
+              style="width: 100%"
+            />
+          </div>
+          <div class="uiux-img" style="width: 100%">
+            <img
+              src="./assets/img/ui-ux/desain-3.JPG"
+              alt="tugas git 3"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+        <!-- End of Introduction UI/UX -->
+
+        <!-- Figma -->
+        <div
+          class="tab-pane fade p-3"
+          id="nav-figma"
+          role="tabpanel"
+          aria-labelledby="nav-figma-tab"
+        >
+          <h2>4 Figma</h2>
+          <h3 class="pt-3">Resume</h3>
+          <p>Dalam materi ini, mempelajari:</p>
+          <ol>
+            <li>Pengertian Figma</li>
+            <div class="paragraph-content">
+              Figma adalah editor grafik vektor dan alat prototyping dengan
+              keutamaannya yang berbasis web, dengan fitur offline tambahan yang
+              diaktifkan oleh aplikasi desktop untuk macOS dan Windows.
+            </div>
+            <li>Kelebihan dan Kekurangan Figma</li>
+            <div class="paragraph-content">
+              Kelebihan dari figma yaitu : bersifat gratis, dapat berjalan pada
+              Mac dan PC, dapat mengimport file sketsa, dapat mengintegrasikan
+              para developer yang terpisah, memiliki library untuk tim secara
+              baik, dan dapat integrasi prototype secara maksimal. <br />
+              Kekurangan dari figma yaitu : Harus terhubung dengan internet.
+            </div>
+            <li>Melakukan Desain dengan Figma</li>
+            <div class="paragraph-content">
+              Terdapat beberapa hal yang harus diperhatikan sebelum mendesain
+              dengan figma, diantaranya : melakukan pengaturan pada frame baru
+              atau disebut juga artboards, tetapkan grid dan layout columns
+              sesuai dengan desain yang akan dibuat, perhatikan layer dan
+              groups, pilih vector shapes yang sesuai, import gambar dan lakukan
+              manipulasi sesuai keinginan, dan buat typography yang menarik.
+            </div>
+          </ol>
+
+          <h3 class="pt-3">Task</h3>
+          <ol>
+            <li>
+              Membuat desain UI/UX dan membuat prototype dari desain tersebut.
+            </li>
+            <div class="paragraph-content">
+              Pada task ini, membuat sebuah desain UI/UX dari desain yang
+              dipilih pada tugas sebelumnya menggunakan tools Figma dan membuat
+              prototype dari desain tersebut.
+            </div>
+          </ol>
+
+          <h3 class="pt-3">Link :</h3>
+          <a
+            href="https://www.figma.com/file/VIijqBWw0zykeNMN8QzGzh/task-figma-%5BMuhamad-Jaya%5D?node-id=2%3A2"
+            >Figma</a
+          >
+
+          <h3 class="pt-3">Screenshots :</h3>
+          <div class="figma-img" style="width: 100%">
+            <img
+              src="./assets/img/figma/tugas-figma.JPG"
+              alt="tugas git"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+        <!-- End of Figma -->
+
+        <!-- HTML -->
+        <div
+          class="tab-pane fade p-3"
+          id="nav-html"
+          role="tabpanel"
+          aria-labelledby="nav-html-tab"
+        >
+          <h2>5 HTML</h2>
+          <h3 class="pt-3">Resume</h3>
+          <p>Dalam materi ini, mempelajari:</p>
+          <ol>
+            <li>Pengertian HTML serta kegunaannya.</li>
+            <div class="paragraph-content">
+              HTML (Hypertext Markup Language) adalah sebuah standar yang
+              digunakan secara luas untuk menampilkan halaman web. Terdapat
+              beberapa kegunaan dari HTML seperti : membuat struktur dari
+              halaman website, mengatur tampilan dan isi dari halaman web,
+              membuat tabel dengan tag HTML table, membuat form HTML, dan
+              lain-lain.
+            </div>
+            <li>Dokumentasi dan Struktur HTML.</li>
+            <div class="paragraph-content">
+              Berikut merupakan dokumentasi pada HTML yang harus diperhatikan :
+              <table>
+                <tr>
+                  <td><code>&lt;!DOCTYPE html&gt;</code></td>
+                  <td>mendefinisikan dokumen tersebut sebagai HTML5</td>
+                </tr>
+                <tr>
+                  <td><code>&lt;html&gt;</code></td>
+                  <td>elemen root dari halaman HTML</td>
+                </tr>
+                <tr>
+                  <td><code>&lt;head&gt;</code></td>
+                  <td>berisi informasi meta tentang dokumen</td>
+                </tr>
+                <tr>
+                  <td><code>&lt;title&gt;</code></td>
+                  <td>menentukan judul dari dokumen</td>
+                </tr>
+                <tr>
+                  <td><code>&lt;body&gt;</code></td>
+                  <td>berisi konten halaman yang terlihat</td>
+                </tr>
+              </table>
+              <br />
+              Struktur halaman pada HTML : <br />
+              <code
+                >&lt;!DOCTYPE html&gt;<br />&lt;html&gt;<br />&lt;head&gt;<br />
+                &lt;title&gt;Judul Website &lt;/title&gt;<br />&lt;/head&gt;<br />&lt;body&gt;<br />
+                &lt;p&gt;Konten Website&lt;/p&gt;<br />&lt;/body&gt;<br />&lt;/html&gt;<br
+              /></code>
+            </div>
+            <li>Macam-macam tag HTML dan fungsinya.</li>
+            <div class="paragraph-content">
+              <table>
+                <tr>
+                  <td>Tag</td>
+                  <td>Keterangan</td>
+                </tr>
+                <tr>
+                  <td><code>&lt;div&gt;</code></td>
+                  <td>untuk membuat sebuah bagian dalam dokumen</td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>&lt;h1&gt;</code> sampai <code>&lt;h6&gt;</code>
+                  </td>
+                  <td>untuk membuat heading</td>
+                </tr>
+                <tr>
+                  <td><code>&lt;a href=&quot; &quot;&gt;</code></td>
+                  <td>untuk membuat hyperlink</td>
+                </tr>
+                <tr>
+                  <td><code>&lt;img src=&quot; &quot;&gt;</code></td>
+                  <td>untuk menyisipkan gambar</td>
+                </tr>
+                <tr>
+                  <td colspan="2">dan tag lainnya.</td>
+                </tr>
+              </table>
+            </div>
+          </ol>
+
+          <h3 class="pt-3">Task</h3>
+          <ol>
+            <li>
+              Membuat beberapa file HTML dengan nama index.html, form.html, dan
+              welcome.html.
+            </li>
+            <div class="paragraph-content">
+              Pada task ini, membuat 3 buah halaman web sederhana. Pada halaman
+              index.html akan menampilkan halaman utama dan terdapat link untuk
+              melakukan sign up untuk menuju ke halaman form.html, kemudian
+              apabila telah mengisi form dan menekan tombol submit pada halaman
+              form.html kemudian akan diarahkan menuju ke halaman welcome.html.
+            </div>
+          </ol>
+
+          <h3 class="pt-3">Link :</h3>
+          <a
+            href="https://github.com/muhamadjaya/react_muhamad-jaya/tree/main/05_HTML/praktikum"
+            >HTML</a
+          >
+
+          <h3 class="pt-3">Screenshots :</h3>
+          <div class="figma-img" style="width: 100%">
+            <img
+              src="./assets/img/html/index.png"
+              alt="index"
+              style="width: 100%"
+            />
+          </div>
+          <div class="figma-img" style="width: 100%">
+            <img
+              src="./assets/img/html/form.png"
+              alt="form"
+              style="width: 100%"
+            />
+          </div>
+          <div class="figma-img" style="width: 100%">
+            <img
+              src="./assets/img/html/welcome.png"
+              alt="welcome"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+        <!-- End of HTML -->
+
+        <!-- CSS -->
+        <div
+          class="tab-pane fade p-3"
+          id="nav-css"
+          role="tabpanel"
+          aria-labelledby="nav-css-tab"
+        >
+          <h2>6 CSS</h2>
+          <h3 class="pt-3">Resume</h3>
+          <p>Dalam materi ini, mempelajari:</p>
+          <ol>
+            <li>Pengertian CSS serta fungsinya.</li>
+            <div class="paragraph-content">
+              CSS adalah kependekan dari Cascading Style Sheet. CSS adalah suatu
+              kode pemrograman yang berfungsi untuk mendekorasi gaya tampilan
+              halaman web supaya lebih menarik. Berikut merupakan beberapa
+              fungsi dari CSS : dapat menghias halaman web. (Seperti mengatur
+              color, size, font, background, width, height, dan lainnya), dapat
+              mengatur posisi pada halaman web. (Misalnya mengatur float, align,
+              display, position, dan lainnya), dan lain-lain.
+            </div>
+            <li>Menambahkan file CSS.</li>
+            <div class="paragraph-content">
+              Terdapat 3 cara untuk menambahkan file CSS ke dalam HTML, yaitu :
+              <ol>
+                <li style="margin-bottom: 0.4rem">
+                  External CSS Contoh penulisan syntax external CSS :
+                </li>
+                <code class="paragraph-content"
+                  >&lt;link rel=&quot;stylesheet&quot; href=&quot;main.css&quot;
+                  &gt;</code
+                >
+                <p class="css-content-point2">
+                  Syntax tersebut disisipkan kedalam tag &lt;head&gt; pada HTML.
+                  Dan ekstensi untuk file CSS adalah .css.
+                </p>
+                <li style="margin-bottom: 0.4rem">
+                  Internal CSS Contoh penulisan internal CSS :
+                </li>
+                <code class="paragraph-content"
+                  >&lt;style&gt; body &#10100; background-color: #FFFFFF;
+                  &#10101; h1 &#10100; color: #f47523; margin-left: 70px;
+                  &#10101;</code
+                >
+                <p class="css-content-point2">
+                  Syntax ini dapat digunakan di dalam satu file HTML.
+                  Didefinisikan di dalam elemen &lt;style&gt;, di dalam bagian
+                  &lt;head&gt; atau di dalam bagian &lt;body&gt;.
+                </p>
+                <li style="margin-bottom: 0.4rem">
+                  Inline CSS Contoh penulisan inline CSS :
+                </li>
+                <code class="paragraph-content"
+                  >&lt;h1 style=&quot;color: #19355f;&quot;>Hello
+                  World&lt;/h1&gt;</code
+                >
+                <p class="css-content-point2">
+                  Syntax tersebut disisipkan kedalam tag &lt;head&gt; pada HTML.
+                  Dan ekstensi untuk file CSS adalah .css.
+                </p>
+              </ol>
+            </div>
+            <li>Penggunaan CSS Selector.</li>
+            <div class="paragraph-content">
+              CSS Selector adalah pola yang digunakan untuk memilih element,
+              yang ingin di styling. Penanda HTML ke dalam CSS. Dapat
+              menggunakan selector ID dan Class. <br />
+              ID → (#) Setiap elemen hanya dapat memiliki satu tag id. Dalam
+              satu halaman tidak boleh ada dua penamaan id yang berbeda. <br />
+              Class → (.) Tag class dengan nama yang sama dapat dipakai
+              berulang-ulang pada satu halaman. Satu elemen boleh memiliki lebih
+              dari satu Class yang berbeda-beda.
+            </div>
+          </ol>
+
+          <h3 class="pt-3">Task</h3>
+          <ol>
+            <li>
+              Mengubah tampilan dari file 1.html dan membuat file 2.html
+              kemudian mendesain file tersebut.
+            </li>
+            <div class="paragraph-content">
+              Pada task ini diperintahkan untuk mengubah sebuah tampilan dari
+              file 1.html menjadi tampilan yang sesuai dengan beberapa ketentuan
+              yaitu menggunakan font-family: 'Slabo 27px', serif; dan font-size:
+              20px;. Serta, membuat tampilan website dengan menambahkan header
+              dan konten yang responsif.
+            </div>
+          </ol>
+
+          <h3 class="pt-3">Link :</h3>
+          <a href="https://github.com/muhamadjaya/tugas-section6-css">CSS</a>
+
+          <h3 class="pt-3">Screenshots :</h3>
+          <div class="css-img" style="width: 100%">
+            <img
+              src="./assets/img/css/file1.png"
+              alt="tugas git"
+              style="width: 100%"
+            />
+          </div>
+          <div class="css-img" style="width: 100%">
+            <img
+              src="./assets/img/css/file2.png"
+              alt="tugas git"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+        <!-- End of CSS -->
+
+        <!-- Bootstrap -->
+        <div
+          class="tab-pane fade p-3"
+          id="nav-bootstrap"
+          role="tabpanel"
+          aria-labelledby="nav-bootstrap-tab"
+        >
+          <h2>7 Bootstrap</h2>
+          <h3 class="pt-3">Resume</h3>
+          <p>Dalam materi ini, mempelajari:</p>
+          <ol>
+            <li>Pengertian Bootstrap.</li>
+            <div class="paragraph-content">
+              Pengertian dari Bootstrap adalah sebuah framework CSS atau
+              kerangka kerja CSS yang bersifat open source dan digunakan untuk
+              membuat tampilan desain website supaya responsive dan mempercepat
+              waktu pengerjaannya. Terdapat beberapa kelebihan yang dimiliki
+              bootstrap untuk membangun sebuah halaman website diantaranya :
+              gratis, mudah dipelajari untuk pemula, cepat dalam membaangun
+              website, dan mendukung tampilan yang responsive.
+            </div>
+            <li>Penggunaan Boostrap dalam Membuat Website.</li>
+            <div class="paragraph-content">
+              Sebelum memulai menggunakan Bootstrap terdapat hal-hal yang perlu
+              diperhatikan :
+              <ul>
+                <li style="font-weight: normal; list-style: disc outside">
+                  Untuk dapat menggunakan bootstrap, dapat langsung menuju
+                  website bootstrap dan unduh secara langsung di website resmi
+                  bootstrap.
+                </li>
+                <li style="font-weight: normal; list-style: disc outside">
+                  Setelah mengunduh bootstrap, langkah selanjutnya adalah bisa
+                  dengan cara mempelajari example, ataupun mempelajari
+                  komponen-komponen yang ada pada bootstrap
+                </li>
+              </ul>
+              Untuk menggunakan Bootstrap dapat menggunakan starter template
+              yang telah disediakan pada dokumentasi Bootstrap. Kemudian, dapat
+              menambahkan beberapa class untuk melakukan customize tampilan
+              website sesuai yang diinginkan.
+            </div>
+            <li>Class-Class Pada Bootstrap.</li>
+            <div class="paragraph-content">
+              Terdapat banyak sekali class yang disediakan oleh Bootstrap yang
+              dapat digunakan untuk mempercantik tampilan website yang akan
+              dibuat. Adapun beberapa diantaranya seperti :
+              <table>
+                <tr>
+                  <td><b>Class</b></td>
+                  <td><b>Keterangan</b></td>
+                </tr>
+                <tr>
+                  <td>container</td>
+                  <td>
+                    untuk membungkus blok di dalamnya, sehingga terlihat rapi
+                    terhadap ukuran layar
+                  </td>
+                </tr>
+                <tr>
+                  <td>row dan col</td>
+                  <td>
+                    untuk membuat baris dan kolom. Kedua class ini gunakan untuk
+                    membuat grid
+                  </td>
+                </tr>
+                <tr>
+                  <td>navbar</td>
+                  <td>untuk membuat navbar</td>
+                </tr>
+                <tr>
+                  <td colspan="2">dan class lainnya.</td>
+                </tr>
+              </table>
+              Dari berbagai class yang ada dan telah disediakan pilihan style
+              yang beragam, dapat juga ditambahkan custom CSS yang kita buat
+              sendiri baik secara inline, internal, maupun eksternal.
+            </div>
+          </ol>
+
+          <h3 class="pt-3">Task</h3>
+          <ol>
+            <li>Membuat Halaman Website Sederhana Menggunakan Bootstrap.</li>
+            <div class="paragraph-content">
+              Pada task ini diperintahkan untuk membuat sebuah tampilan website
+              sederhana yang didalamnya terdapat header, body, dan footer
+              menggunakan framework Bootstrap. Kemudian, website tersebut diatur
+              supaya responsive diberbagai device.
+            </div>
+          </ol>
+
+          <h3 class="pt-3">Link :</h3>
+          <a href="https://github.com/muhamadjaya/tugas-section7-bootstrap"
+            >Bootstrap</a
+          >
+
+          <h3 class="pt-3">Screenshots :</h3>
+          <div class="figma-img" style="width: 100%">
+            <img
+              src="./assets/img/bootstrap/index.png"
+              alt="tugas bootstrap"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+        <!-- End of Bootstrap -->
+
+        <!-- Javacript -->
+        <div
+          class="tab-pane fade p-3"
+          id="nav-javascript"
+          role="tabpanel"
+          aria-labelledby="nav-javascript-tab"
+        >
+          <h2>8 Javascript Refreshment</h2>
+          <h3 class="pt-3">Resume</h3>
+          <p>Dalam materi ini, mempelajari:</p>
+          <ol>
+            <li>Pengertian Javascript dan Alasan Untuk Mempelajarinya.</li>
+            <div class="paragraph-content">
+              Javascript adalah bahasa pemrograman yang high-level, scripting,
+              untyped dan interpreted. Terdapat beberapa alasan untuk
+              mempelajari javascript : javascript merupakan bahasa pemrograman
+              tingkat tinggi, diciptakan supaya dapat berinteraksi dengan web
+              browser, tidak berpengaruh pada tipe data, dan bahasanya fleksibel
+              dan mudah untuk diuji.
+            </div>
+            <li>Declaration Declaration dan Scope pada Javascript.</li>
+            <div class="paragraph-content">
+              Declaration adalah proses pembuatan variabel untuk menyimpan data.
+              Variabel ada 3 : var (umumnya, kita jarang memakai ini), let
+              (digunakan saat membutuhkan nilai yang dapat diubah), dan const
+              (digunakan saat membutuhkan nilai yang tidak bisa di "reasign").
+              <br />
+              Saat mendeklarasikan variabel const, maka harus membri nilai pada
+              variabel tersebut. Proses redeclaration hanya dapat dilakukan pada
+              var, sedangkan let dan const tidak dapat dilakukan redeclaratio.
+              Proses reassignment dapat dilakukan pada var dan let, sedangkan
+              const tidak dapat dilakukan reassignment. Scooping adalah
+              menentukan dimana variabel, fungsi, dan objek diatur dan dapat
+              diakses dalam kode kita. Ini berarti ruang lingkup variabel
+              dikendalikan oleh lokasi deklarasi variabel.
+              <br />
+              Scoope terdiri dari 3 bagian : Global (dapat diakses oleh semua
+              bagian kode), Function (hanya dapat diakses didalam area scope
+              function itu sendiri), dan Block (hanya dapat diakses oleh bagian
+              block tersebut)
+            </div>
+            <li>Function dan Class.</li>
+            <div class="paragraph-content">
+              Function di dalam javascript adalah sebuah objek. Karena memiliki
+              properti dan method. Function digunakan untuk melakukan
+              serangkaian komputasi / prosedur yang dapat digunakan berulang
+              kali. Class adalah prototype dari suatu object yang akan dibuat.
+            </div>
+          </ol>
+
+          <h3 class="pt-3">Task</h3>
+          <ol>
+            <li>
+              Mengambil index ke 2 di dalam array kemudian menampilkannya pada
+              console. Mengubah kode sehingga menampilkan statement yang
+              terdapat pada block if. Memanggil sebuah fungsi yang telah
+              dideklarasikan. Mengubah kode sehingga menampilkan output yang
+              sesuai ketentuan.
+            </li>
+            <li>
+              Menjelaskan kenapa block if tidak dapat tampil. Menjelaskan kenapa
+              kode pada baris 26 dapat menyebabkan error. Menjelaskan jika kode
+              pada baris 26 diberi komentar apakah baris 28 dapat dijalankan.
+            </li>
+            <li>
+              Melakukan destructuring pada sebuah variabel yang bertipe array.
+            </li>
+            <li>
+              Mengubah karakter yang terdapat pada nilai dari sebuah variabel.
+            </li>
+            <li>Melakukan perkalian pada setiap elemen array.</li>
+            <li>Membulatkan nilai pada sebuah array.</li>
+          </ol>
+
+          <h3 class="pt-3">Link :</h3>
+          <a href="https://github.com/muhamadjaya/tugas-section8-javascript.git"
+            >Javascript Refreshment</a
+          >
+
+          <h3 class="pt-3">Screenshots :</h3>
+          <div class="js-img" style="width: 100%">
+            <img
+              src="./assets/img/javascript/soalno1.png"
+              alt="tugas git"
+              style="width: 100%"
+            />
+          </div>
+          <div class="js-img" style="width: 100%">
+            <img
+              src="./assets/img/javascript/soalno3to6.png"
+              alt="tugas git"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+        <!-- End of Javacript -->
+
+        <!-- Clean Code -->
+        <div
+          class="tab-pane fade p-3"
+          id="nav-cleancode"
+          role="tabpanel"
+          aria-labelledby="nav-cleancode-tab"
+        >
+          <h2>9 Clean Code</h2>
+          <h3 class="pt-3">Resume</h3>
+          <p>Dalam materi ini, mempelajari:</p>
+          <ol>
+            <li>Pengertian Clean Code.</li>
+            <div class="paragraph-content">
+              Clean Code adalah istilah untuk kode yang mudah dibaca, difahami
+              dan diubah oleh programmer. Alasan kenapa clean code harus
+              diterapkan : Work Collaboration, Feature Development, dan Faster
+              Development.
+            </div>
+            <li>Karakteristik Clean Code.</li>
+            <div class="paragraph-content">
+              Terdapat beberapa karakteristik dari clean code, yaitu : mudah
+              difahami, mudah dieja dan dicari, singkat namun mendeskripsikan
+              konteks, konsisten, hindari penambahan konteks yang tidak perlu,
+              komentar, good function, gGunakan konvensi, dan formatting.
+            </div>
+            <li>Prinsip-Prinsip Clean Code.</li>
+            <div class="paragraph-content">
+              Beberapa prinsip yang diterapkan pada clean code, seperti :
+              <ul>
+                <li style="font-weight: normal; list-style: disc outside">
+                  KISS (Keep It So Simple) yaitu, hindari membuat fungsi yang
+                  dibuat untuk melakukan A, sekaligus memodifikasi B, mengecek
+                  fungsi C, dan sebagainya.
+                </li>
+                <li style="font-weight: normal; list-style: disc outside">
+                  DRY (Don't Repeat Yourself) yaitu, duplikasi code terjadi
+                  karena sering copy paste. Untuk menghindari duplikasi code
+                  buatlah fungsi yang dapat digunakan secara berulang-ulang.
+                </li>
+              </ul>
+            </div>
+          </ol>
+
+          <h3 class="pt-3">Task</h3>
+          <ol>
+            <li>Melakukan Analysis dan Rewrite Code.</li>
+            <div class="paragraph-content">
+              Pada task ini, ditugaskan untuk menganalisis terhadap kesalahan
+              penulisan yang terdapat pada suatu kode dan menulis ulang kode
+              supaya lebih terbaca dan rapih.
+            </div>
+          </ol>
+
+          <h3 class="pt-3">Link :</h3>
+          <a href="https://github.com/muhamadjaya/tugas-section9-clean-code.git"
+            >Clean Code</a
+          >
+
+          <h3 class="pt-3">Screenshots :</h3>
+          <div class="cleancode-img" style="width: 100%">
+            <img
+              src="./assets/img/clean-code/analysis.jpg"
+              alt="tugas clean code"
+              style="width: 100%"
+            />
+          </div>
+          <div class="cleancode-img" style="width: 100%">
+            <img
+              src="./assets/img/clean-code/rewrite.jpg"
+              alt="tugas clean code"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+        <!-- End of Clean Code -->
+      </div>
+      <!-- End of Content -->
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
