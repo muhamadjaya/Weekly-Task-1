@@ -38,14 +38,14 @@ td {
 
 @media (max-width: 450px) {
   .nav-tabs .nav-link {
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
   }
 }
 
 @media (max-width: 390px) {
   .nav-tabs .nav-link {
-    padding: 10px 15px;
-    font-size: 12px;
+    padding: 0.625rem 0.938rem;
+    font-size: 0.75rem;
   }
 }
 
@@ -66,7 +66,7 @@ td {
   color: aqua !important;
   font-size: 1.25rem;
   font-weight: 600;
-  padding: 15px 25px;
+  padding: 0.938rem 1.563rem;
   border-top-left-radius: 0rem;
   border-top-right-radius: 0rem;
 }
@@ -88,7 +88,7 @@ td {
 
 li,
 .paragraph-content {
-  margin-left: -14px;
+  margin-left: -0.875rem;
 }
 
 .paragraph-content {
@@ -113,5 +113,5 @@ a:hover {
 
 .css-content-point2 {
   margin-top: 0.2rem;
-  margin-left: -14px;
+  margin-left: -0.875rem;
 }
